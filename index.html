@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <style>
+        .erro {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="validationForm(event)" id='meuForm'>
+        <input class="A" type="number" required />
+        <input class="B" type="number" required/>
+        <span class="erro"></span>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
